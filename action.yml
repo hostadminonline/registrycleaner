@@ -1,4 +1,4 @@
-name: Private Container Registry Cleaner
+name: Private Container Registry Clean
 description: Remove old image tags from Private Container Registry
 branding:
   icon: 'trash'
