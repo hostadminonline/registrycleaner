@@ -1,0 +1,2 @@
+# registrycleaner
+Private registry clean
