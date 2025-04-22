@@ -19,7 +19,7 @@ delete_old_tags() {
 
     # Получение токена
     local token_url
-    token_url=$(curl -s -u "$user:$password" "https://${registry}/auth?service=cr.selcloud.ru&scope=repository:${image}:pull,push,delete")
+    token_url=$(curl -s -u "$user:$password" "https://${registry}/auth?service=${registry}&scope=repository:${image}:pull,push,delete")
 #    echo "Token URL Response: $token_url"
 
     local token
